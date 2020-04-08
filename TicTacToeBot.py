@@ -175,12 +175,12 @@ def check_rows():
 			return 'Bot'
 	elif row2:
 		if board[3] == 'X':
-			return board[0]
+			return board[3]
 		else:
 			return 'Bot'
 	elif row3:
 		if board[6] == 'X':
-			return board[0]
+			return board[6]
 		else:
 			return 'Bot'
 	return
